@@ -11,8 +11,14 @@ After installing Hermes and setting your Telegram bot token, **one command** sta
 ### Requirements
 
 - **Python 3.x**
-- **Hermes Agent** installed ([Installation](https://hermes-agent.nousresearch.com/docs/getting-started/installation))
-- **Telegram Bot Token** (free from [@BotFather](https://t.me/BotFather))
+- **Telegram Bot Token** — get one for free from [@BotFather](https://t.me/BotFather).
+- **Hermes Agent** (Nous Research) — [Installation](https://hermes-agent.nousresearch.com/docs/getting-started/installation). Hermes uses an LLM backend; configure via `hermes setup` (e.g. [OpenRouter](https://openrouter.ai), [Friendli Inference](https://inference.friendli.ai)).
+- **Etherscan API Key** (optional) — [etherscan.io/apis](https://etherscan.io/apis), for EVM contract/source.
+- **BSCScan API Key** (optional) — [bscscan.com/apis](https://bscscan.com/apis), for BSC chains.
+- **Birdeye API Key** (optional) — [birdeye.so](https://birdeye.so), for Solana token/holder data.
+- **GoPlus API Key** (optional) — [gopluslabs.io](https://gopluslabs.io), for token security / honeypot / LP lock.
+- **Helius API Key** (optional) — [helius.dev](https://helius.dev), for Solana RPC.
+- **CryptoPanic / News API / X (Twitter) / GitHub** (optional) — see **APIS.md** for news and repo activity.
 
 ### Setup and run
 
