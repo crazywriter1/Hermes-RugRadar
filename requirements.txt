@@ -1,0 +1,4 @@
+# RugRadar bridge uses only Python stdlib (urllib, subprocess, json, re).
+# No pip install required for the bridge.
+# Hermes Agent must be installed separately:
+#   https://hermes-agent.nousresearch.com/docs/getting-started/installation

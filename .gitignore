@@ -1,0 +1,26 @@
+# Env / secrets
+.env
+.env.local
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python (if you add scripts later)
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Downloaded installers (do not commit)
+Git-*.exe
+
+# Hermes local state (do not commit user data)
+# ~/.hermes is outside repo, so no need to ignore here
